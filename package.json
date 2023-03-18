@@ -1,0 +1,24 @@
+{
+  "name": "battery-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "targets": {
+    "lib": {
+      "source": "src/index.js",
+      "isLibrary": true,
+      "outputFormat": "esmodule"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel showcase/index.html",
+    "build": "parcel build --target=lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
